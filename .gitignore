@@ -1,0 +1,37 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Local caches, logs, crash dumps
+.cache/
+MUJOCO_LOG.TXT
+setup_windows.log
+uninstall_windows.log
+*.log
+
+# Dev / test artifacts
+_clip_test.npz
+*.npz
+tests/*.png
+tests/*.mp4
+tests/*.jpg
+gui_*.png
+dist/
+
+# Keep only the pretrained checkpoint the app actually ships with
+assets/pretrained/*.pt
+!assets/pretrained/dance_base.pt
+assets/pretrained/*.json
+!assets/pretrained/dance_base.json
+
+# OS noise
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Local editor / agent settings
+.claude/
+.vscode/
+.idea/

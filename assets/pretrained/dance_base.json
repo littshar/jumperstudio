@@ -1,0 +1,12 @@
+{
+  "name": "dance_base.pt",
+  "iteration": 13993,
+  "source": "jumper.dance_crab jump-clip curriculum + full integration (2026-11-20_23-... run)",
+  "task": "jumper.dance_crab",
+  "num_envs": 2048,
+  "reward": 248.35,
+  "episode_length": 1000,
+  "joint_error_rad": 0.54,
+  "body_error_m": 0.0155,
+  "note": "posture+jump skill init; yaw matches reference; visible hop ~72 mm; lr 2e-4"
+}

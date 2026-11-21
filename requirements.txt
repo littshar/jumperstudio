@@ -1,0 +1,8 @@
+sports2d
+PySide6
+opencv-python
+matplotlib
+pandas
+numpy
+mujoco>=3.2
+psutil
